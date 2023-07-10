@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-color: #11f24d;
+}
+button {
+  margin: 0px 10px;
+}
+h3:hover {
+  color: #e41111;
+}
+#rules-img {
+  display: none;
+}
+#battle-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#sheldon-img {
+  height: 210px;
+  width: 100px;
+}
+#result {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#you {
+  display: flex;
+  flex-direction: column;
+  
+}
+#your-img {
+  display: flex;
+  height: 200px;
+  width: 100px;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+}
+#you p {
+  font-weight: bolder;
+  font-size: larger;
+}
+#moves {
+  margin-top: 20px;
+}
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #e42d39;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  background: #e41111;
+  text-decoration: none;
+}
+#moves {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
